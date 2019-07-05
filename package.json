@@ -1,13 +1,13 @@
 {
-  "name": "preserve-cli",
-  "version": "0.0.6",
-  "description": "Deploy HTML pages, static assets and entire websites to the Bitcoin blockchain.",
+  "name": "preserve-vtimezone-cli",
+  "version": "0.0.1",
+  "description": "Deploy VTimezones to Bitcoin blockchain, synchronizing with tzurl.org. Also public tzid and sha256 hash mapping for indexing",
   "main": "lib/index.js",
   "bin": {
     "preserve": "lib/index.js"
   },
-  "repository": "https://github.com/libitx/preserve-cli",
-  "author": "libitx",
+  "repository": "https://github.com/ryejoon/preserve-vtimezone-cli",
+  "author": "ryejoon",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.18.0",
