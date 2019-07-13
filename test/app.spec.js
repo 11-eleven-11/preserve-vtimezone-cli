@@ -1,4 +1,4 @@
-const tzurl = require('../lib/commands/tzurl');
+const tzurl = require('../lib/tzurl');
 
 describe('App test!', function () {
     this.timeout(1000000);
