@@ -4,7 +4,7 @@
 Deploy VTimezone ics files to Bitcoin blockchain, synchronizing with http://tzurl.org/.
 
 # Background
-Made some change on https://github.com/libitx/preserve-cli to deploy VTimezone ics files to Bitcoin blockchain, and publishes `sha256` hash map of them.
+Made some change on https://github.com/libitx/preserve-cli to deploy VTimezone ics files to Bitcoin blockchain, and publishes `sha256` hash map of them, using `deploy` command.
 
 # Samples
 [Link](https://babel.bitdb.network/query/1DHDifPvtPgKFPZMRSxmVHhiPvFmxZwbfh/ewogICJ2IjogMywKICAicSI6IHsKICAgICJmaW5kIjogewogICAgICAiaW4uZS5hIjogIjFEblplajFqbjR4THpmN1VhOXhkZmdyZ3Uzb2RwTlNzQVYiCiAgICB9LAogICAgInByb2plY3QiOiB7CiAgICAgICJvdXQubHMyIjogMCwgIm91dC5saDIiOiAwLCAib3V0LmkiOiAwLCAib3V0LmIxIjogMCwgIm91dC5iMyI6IDAsICJvdXQuaDEiOiAwLCAib3V0LmgzIjogMAogICAgfSwKICAgICJsaW1pdCI6IDEwCiAgfSwKICAiciI6IHsKICAgICJmIjogIlsuW10gfCB7IHRyYW5zYWN0aW9uOiAudHguaCwgYmxvY2s6IC5ibGssIHB1c2hkYXRhOiB7IGIwOiBcIk9QX1JFVFVSTlwiLCBzMTogLm91dFswXS5zMSwgbGIyOiAub3V0WzBdLmxiMiwgczM6IC5vdXRbMF0uczMgfSB9XSIKICB9Cn0=) to the VTimezone `.ics` files deployed so far from an address.
