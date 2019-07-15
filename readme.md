@@ -14,7 +14,7 @@ Made some change on https://github.com/libitx/preserve-cli to deploy VTimezone i
  Any [`icalendar` based application](calendarsv.com) can use this map to lookup the most recent timezone from blockchain. For example, below is the [C address](https://c.bitdb.network/) for `Africa/Algiers` timezone as of July, 2019.
  `https://data.bitdb.network/1KuUr2pSJDao97XM8Jsq8zwLS6W1WtFfLg/c/27bdf2d410f6d9bb52c8f4935ead49b65a87ed3c32a48620c2d17c5f51f4a879`
  
- Below is the most recent `TimeZoneId - VTimezone sha256 hash map`.
+ Below is the recent `TimeZoneId - VTimezone sha256 hash map` as of this writing.
  
 ```json
 {
