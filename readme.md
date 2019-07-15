@@ -1,19 +1,21 @@
 [![license](https://img.shields.io/github/license/libitx/preserve-cli.svg)](https://github.com/libitx/preserve-cli/blob/master/license.md)
 
 # Preserve-VTimezone CLI
-
 Deploy VTimezone ics files to Bitcoin blockchain, synchronizing with http://tzurl.org/.
 
+# Background
+Made some change on https://github.com/libitx/preserve-cli to deploy VTimezone ics files to Bitcoin blockchain, and publishes `sha256` hash map of them.
 
 # Samples
-
 [Link](https://babel.bitdb.network/query/1DHDifPvtPgKFPZMRSxmVHhiPvFmxZwbfh/ewogICJ2IjogMywKICAicSI6IHsKICAgICJmaW5kIjogewogICAgICAiaW4uZS5hIjogIjFEblplajFqbjR4THpmN1VhOXhkZmdyZ3Uzb2RwTlNzQVYiCiAgICB9LAogICAgInByb2plY3QiOiB7CiAgICAgICJvdXQubHMyIjogMCwgIm91dC5saDIiOiAwLCAib3V0LmkiOiAwLCAib3V0LmIxIjogMCwgIm91dC5iMyI6IDAsICJvdXQuaDEiOiAwLCAib3V0LmgzIjogMAogICAgfSwKICAgICJsaW1pdCI6IDEwCiAgfSwKICAiciI6IHsKICAgICJmIjogIlsuW10gfCB7IHRyYW5zYWN0aW9uOiAudHguaCwgYmxvY2s6IC5ibGssIHB1c2hkYXRhOiB7IGIwOiBcIk9QX1JFVFVSTlwiLCBzMTogLm91dFswXS5zMSwgbGIyOiAub3V0WzBdLmxiMiwgczM6IC5vdXRbMF0uczMgfSB9XSIKICB9Cn0=) to the VTimezone `.ics` files deployed so far from an address.
 
- It also creates `sha256` [content hash map](https://www.bitcoinfiles.org/3fc40067716138c9d29f25898c522a3025d83f3a0f892fe6b04d51b11e9f31bf) of each Timezone id, and pubished to the blockchain. 
- Below are the most recent TimeZoneId - VTimezone sha256 hash map.
- Any [`icalendar` based application](calendarsv.com) can use this map to lookup the most recent timezone from blockchain.
- For example, below is the [C address](https://c.bitdb.network/) for `Africa/Algiers` timezone.
+ It also creates `sha256` [content hash map](https://www.bitcoinfiles.org/3fc40067716138c9d29f25898c522a3025d83f3a0f892fe6b04d51b11e9f31bf) of each Timezone id, and publish to the blockchain. 
+ 
+ Any [`icalendar` based application](calendarsv.com) can use this map to lookup the most recent timezone from blockchain. For example, below is the [C address](https://c.bitdb.network/) for `Africa/Algiers` timezone.
  `https://data.bitdb.network/1KuUr2pSJDao97XM8Jsq8zwLS6W1WtFfLg/c/27bdf2d410f6d9bb52c8f4935ead49b65a87ed3c32a48620c2d17c5f51f4a879`
+ 
+ Below is the most recent `TimeZoneId - VTimezone sha256 hash map`.
+ 
 ```json
 {
   "Africa/Algiers": "27bdf2d410f6d9bb52c8f4935ead49b65a87ed3c32a48620c2d17c5f51f4a879",
